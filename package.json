@@ -4,17 +4,25 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build":"tsc"
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danieltistoj/radix-converter.git"
   },
   "author": {
     "name": "Daniel Tistoj"
   },
   "files": [
-    "dist","README.md"],
+    "dist",
+    "README.md"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.12",
     "jest": "^29.7.0",
+    "semantic-release": "^24.2.3",
     "ts-jest": "^29.3.2",
     "typescript": "^5.8.3"
   }
