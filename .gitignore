@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Builds
+dist/
+build/
+out/
+.next/
+
+# Logs
+*.log
+logs/
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Variables de entorno
+.env*
+!.env.example
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# TypeScript/Javascript
+*.tsbuildinfo
+jsconfig.json
+
+# Testing
+coverage/
+.jest/
