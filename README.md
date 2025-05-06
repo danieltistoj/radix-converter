@@ -1,4 +1,4 @@
-# radix-converter 🔢
+# radix-converter-lib 🔢
 
 Numeric converter for decimal to binary. Supports negative numbers (two's complement).
 
@@ -6,19 +6,19 @@ Numeric converter for decimal to binary. Supports negative numbers (two's comple
 
 ### npm
 ```bash
-npm install radix-converter
+npm install radix-converter-lib
 ```
 
 ### Yarn
 ```bash
-yarn add radix-converter
+yarn add radix-converter-lib
 ```
 
 ## Basic Usage
 ```typescript
 import { 
   decimalToBinary,
-} from 'radix-converter';
+} from 'radix-converter-lib';
 
 // Decimal (10) → Binary
 decimalToBinary(10);    // '1010'
